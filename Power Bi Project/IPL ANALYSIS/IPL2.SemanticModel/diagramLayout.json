@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "ipl_matches_data",
+          "nodeLineageTag": "2fa02ddb-9761-4843-a5ed-2dc05ebaf2f3",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 217,
+            "y": 344
+          },
+          "nodeIndex": "ball_by_ball_data",
+          "nodeLineageTag": "2a703970-e832-4bd9-b3e5-d2e578bfd9d6",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 619,
+            "y": 272
+          },
+          "nodeIndex": "players-data-updated",
+          "nodeLineageTag": "1f3b65e4-fd45-4029-9567-304490ccf33f",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 656,
+            "y": 62
+          },
+          "nodeIndex": "teams_data",
+          "nodeLineageTag": "84053ab4-1de1-4ba4-9d9a-4cdbad631f8a",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

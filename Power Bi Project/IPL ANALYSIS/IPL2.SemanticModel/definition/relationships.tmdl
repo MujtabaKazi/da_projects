@@ -1,0 +1,23 @@
+relationship 969c4c80-cb7d-4a70-b505-55ad561bc13e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: ipl_matches_data.match_date
+	toColumn: LocalDateTable_77a8e117-9ffd-4ad3-80ea-b75c7677a876.Date
+
+relationship AutoDetected_04ecb461-9044-431a-aa6e-9070f67061a3
+	fromColumn: ball_by_ball_data.match_id
+	toColumn: ipl_matches_data.match_id
+
+relationship 5586fe70-13ed-6625-318a-7d57761ff72f
+	fromColumn: ipl_matches_data.match_winner
+	toColumn: teams_data.team_name
+
+relationship 3660d0bd-6a2a-e3c7-e021-24599fe17d52
+	isActive: false
+	fromColumn: ipl_matches_data.team1
+	toColumn: teams_data.team_name
+
+relationship ce09bcd6-35e8-eafd-3aa8-63cc76003fa9
+	isActive: false
+	fromColumn: ipl_matches_data.team2
+	toColumn: teams_data.team_name
+

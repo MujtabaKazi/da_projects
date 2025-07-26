@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["ipl_matches_data","ball_by_ball_data","players-data-updated","teams_data"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.145.1262.0 (25.07)+10bdeda5ab0db954b2cf824e7a117ad7cee97f88
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table ipl_matches_data
+ref table DateTableTemplate_f2c8e095-9cfb-44a0-bd66-5c86b075d4c8
+ref table LocalDateTable_77a8e117-9ffd-4ad3-80ea-b75c7677a876
+ref table ball_by_ball_data
+ref table players-data-updated
+ref table teams_data
+
+ref cultureInfo en-US
+
